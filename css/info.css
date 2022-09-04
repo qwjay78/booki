@@ -1,0 +1,22 @@
+/*-------------------------*/
+/*==     MESSAGE INFO      */
+/*-------------------------*/
+
+.info{
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.info i {
+	border: 1px solid lightgrey;
+	border-radius: 50%;
+	color: #0065FC;
+	width: 35px ;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}

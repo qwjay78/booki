@@ -1,0 +1,67 @@
+/*----------------------*/
+/*==   POLICE STYLE     */
+/*----------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*---------------------------------*/
+/*==   AUTRES FEUILLES DE STYLE   */
+/*--------------------------------*/
+
+
+@import url(css/header-nav.css);
+@import url(css/filters.css);
+@import url(css/info.css);
+@import url(css/searchbar.css);
+@import url(css/appartements.css);
+@import url(css/activites.css);
+@import url(css/footer.css);
+@import url(css/media-queries.css);
+
+
+
+/*-----------------------*/
+/*== ELEMENTS PRINCIPAUX */
+/*-----------------------*/
+
+
+*
+{
+	font-family: "Raleway","sans-serif","serif";
+
+}
+
+body{
+	margin: 0;
+	max-width: 1440px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+
+main {
+	
+	max-width: 1440px;
+	padding: 0 40px;
+	box-sizing: border-box;
+
+}
+
+
+
+/*== liens */
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+	

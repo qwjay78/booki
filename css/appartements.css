@@ -1,0 +1,149 @@
+/*--------------------*/
+/*==   APPARTEMENTS   */
+/*--------------------*/
+
+
+.appartements {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	max-width: 1440px;
+	height: auto;
+	width: 100%;
+}
+  
+.appartements > section {
+	background-color: #f2f2f2;
+	padding: 16px;
+	border-radius: 16px;
+}
+
+
+/*----------------*/
+/*== HEBERGEMENTS */
+/*----------------*/
+
+.hebergements {
+flex-basis: 70%;
+}
+
+.appartements .hebergements a {
+	font-weight: bold;
+}
+.appartements .hebergements h2{
+	padding-left: 20px;
+}
+
+
+.hebergements-list {
+	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	
+}
+
+.hebergements-card{
+	background-color: white;
+	border-radius: 20px;
+	padding: 7px;
+	box-shadow: 0px 0px 20px lightgrey;
+	height: 220px;
+	width: 95%;
+	
+}
+
+.hebergements-card img{
+	border-radius: 20px 20px 0px 0px;
+	height: 112px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.hebergements-card p{
+	font-weight: normal;
+	margin: 4px 12px 4px 12px
+}
+
+.hebergements-card h3{
+	margin: 4px 12px 0px 12px;
+}
+
+
+.afficher{
+	padding: 20px 0px 20px 25px;
+}
+
+
+/*----------------*/
+/*==    popular   */
+/*----------------*/
+
+
+.popular {
+	flex-basis: 35%;
+}
+
+.popular .popular-title {
+
+
+	font-size: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 16px;
+	padding-right: 30px;
+	
+}
+
+
+.popular-card{
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	padding: 4px;
+	margin: 23px;
+	height: 130px;
+	width: 90%;
+	box-shadow: 0px 0px 20px lightgrey;
+}
+
+.popular-card img {
+	border-radius: 20px 0px 0px 20px;
+	height: 100%;
+	width: 120px;
+	object-fit: cover;
+	
+}
+
+.popular-card h3{
+	margin: 4px 12px 0px 12px;
+
+}
+
+.popular-card p{
+	margin: 4px 12px 4px 12px;
+	font-size: 90%;
+}
+
+
+/*==  ratings*/
+
+.space{
+	height: 15px;
+}
+.popular-description .rate{
+	margin-top: 40px;
+}
+.fas.fa-star.blue{
+	color: #0065FC;
+}
+
+.fas.fa-star.grey{
+	color: #f2f2f2;
+}
+
+								
