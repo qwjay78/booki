@@ -1,0 +1,61 @@
+/*---------------------------*/
+/*==       NAV               */
+/*---------------------------*/
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	width: 100%;
+}
+
+
+
+
+/*== logo */
+
+#booki{
+	
+	height: 100%;
+    padding-left: 40px;
+	margin-top: 20px;
+}
+
+
+/*== hebergements-activites*/
+
+.elements-nav{
+	display: flex;
+	gap: 60px;
+	padding-right: 40px;
+}
+
+nav a{
+	padding: 50px 20px;
+	width: 100%;
+
+}
+
+
+nav a:hover
+{
+
+	border-top: 2px solid #0065FC;
+}
+
+
+
+/*---------------*/
+/*=   HEADER    */
+/*--------------*/
+
+
+header h1{
+	margin-top: 40px;
+	font-size: larger;
+	
+}
+
+.soustitre{
+	font-size: 14px;
+}
