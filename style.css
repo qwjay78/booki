@@ -30,16 +30,7 @@
 *
 {
 	font-family: "Raleway","sans-serif","serif";
-
-}
-
-body{
-	margin: 0;
-	max-width: 1440px;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-
+	box-sizing: border-box;
 }
 
 
@@ -48,9 +39,10 @@ main {
 	
 	max-width: 1440px;
 	padding: 0 40px;
-	box-sizing: border-box;
-
+	margin: 0 auto;
 }
+
+
 
 
 

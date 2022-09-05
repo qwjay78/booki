@@ -5,11 +5,7 @@
 nav{
 	display: flex;
 	justify-content: space-between;
-	max-width: 1440px;
-	width: 100%;
 }
-
-
 
 
 /*== logo */
@@ -17,7 +13,6 @@ nav{
 #booki{
 	
 	height: 100%;
-    padding-left: 40px;
 	margin-top: 20px;
 }
 
@@ -27,13 +22,10 @@ nav{
 .elements-nav{
 	display: flex;
 	gap: 60px;
-	padding-right: 40px;
 }
 
 nav a{
 	padding: 50px 20px;
-	width: 100%;
-
 }
 
 
@@ -52,10 +44,9 @@ nav a:hover
 
 header h1{
 	margin-top: 40px;
-	font-size: larger;
-	
+	margin-bottom: 0;
 }
 
-.soustitre{
-	font-size: 14px;
+.subtitle{
+	font-size: 20px;
 }

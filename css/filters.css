@@ -35,7 +35,7 @@
 background-color: rgb(243, 251, 255);
 }
 
-.filter .cercle{
+.filter .circle{
     display: flex;
     align-items: center;
     justify-content: center;
