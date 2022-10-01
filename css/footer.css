@@ -2,32 +2,25 @@
 /*==   FOOTER  */
 /*-------------*/
 
-footer{
-	background-color: #f2f2f2;
-    display: flex;
-    margin-top: 60px;
-    padding-bottom: 30px;
-    font-size: 20px;
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  font-size: 20px;
 }
 
-
-
-.a-propos, .nos-hebergements, .Assistance{
-margin-left: 6%;
-width: 30%;
+.a-propos,
+.nos-hebergements,
+.Assistance {
+  margin-left: 6%;
+  width: 30%;
 }
 
-
-footer p{
-font-size: smaller;
+footer p {
+  font-size: smaller;
 }
 
-footer p:hover{
-text-decoration: underline black;
-
+footer p:hover {
+  text-decoration: underline black;
 }
-
-         
-
-
-

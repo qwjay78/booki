@@ -1,4 +1,3 @@
-
 /*-----------------*/
 /*==  searchbar   */
 /*----------------*/
@@ -7,48 +6,38 @@
 /* <i class="fa-regular fa-magnifying-glass"></i> */
 
 .search {
-	display: flex;
-	
+  display: flex;
 }
 
 .search .localisation {
-	border: 1px solid #f2f2f2;
-	border-radius: 10px 0 0 10px;
-	background-color: #f2f2f2;
-	padding: 20px;
-	display: flex;
-	align-items: center;
-
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 0 0 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
-
-
-.search input
-	{
-	padding: 20px 30px;
-	border-left: none;
-	border-right: none;
-	border-top: 1px solid #f2f2f2;
-	border-bottom: 1px solid #f2f2f2;
-	width: 63%;
-	
+.search input {
+  padding: 20px 30px;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  width: 63%;
 }
 
-::placeholder{
-	color: black;
-	font-weight: bold;
+::placeholder {
+  color: black;
+  font-weight: bold;
 }
 
-
-.search button
-	{
-	padding: 20px;
-	border: none;
-	border-radius: 0px 10px 10px 0;
-	color: white;
-	background-color: #0065FC;
-	font-weight: 500;
-	cursor: pointer;
+.search button {
+  padding: 20px;
+  border: none;
+  border-radius: 0px 10px 10px 0;
+  color: white;
+  background-color: #0065fc;
+  font-weight: 500;
+  cursor: pointer;
 }
-
-	
