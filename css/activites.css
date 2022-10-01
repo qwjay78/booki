@@ -26,7 +26,6 @@
 
 .card-activity-big2,
 .card-activity-big {
-  height: 100%;
   width: 100%;
   background-color: white;
   border: 2px solid #f2f2f2;
@@ -49,7 +48,6 @@
   background-color: white;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  height: 100%;
   width: 100%;
   border-top: none;
   display: inline-block;
@@ -69,7 +67,6 @@
   background-color: white;
   border: 2px solid #f2f2f2;
   border-radius: 20px;
-  height: 100%;
   width: 100%;
   border-top: none;
   display: inline-block;
